@@ -21,6 +21,12 @@
       "path": "/etc/hostname",
       "mode": 420,
       "contents": { "source": "data:,aerilon" }
+    },
+    {
+      "filesystem": "root",
+      "path": "/etc/coreos/update.conf",
+      "mode": 420,
+      "contents": { "source": "data:,GROUP%3Dstable%0A%0AREBOOT_STRATEGY%3D%22reboot%22" }
     }]
   },
   "systemd": {}
